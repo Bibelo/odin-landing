@@ -1,0 +1,258 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blackbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+    flex: 1;
+    background-color: #1F2937;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    flex: 1;
+    padding: 20px;
+    width: 1000px;    
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+
+    align-items: center; /* This centers items vertically */
+
+
+    flex: 1;
+    width: 1000px;    
+    padding: 20px;
+    margin-top: 100px;
+
+    background-color: #1F2937;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    gap: 20px;
+}
+
+.content-title {
+    flex: 1;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.content-text {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-signup {
+    flex: 1;
+
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+
+
+/* Comment centrer l'image et le texte ??? Voir autres */
+.image {
+    display: flex;
+
+    flex: 1;
+
+    background-color: grey;
+    color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* align-items: center; */
+    flex-grow: 1;
+    height: 200px;
+
+}
+
+/* .image-text {
+    text-align: center;
+    flex: 1;
+
+    padding: auto;
+} */
+
+.whitebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1
+    padding: 50px;
+    margin: 100px;
+
+}
+
+.whitebox-info {
+    flex: 1;
+    /* padding: 50px; */
+    font-size: 36px;
+    font-weight: 700;
+    color:#1F2937
+}
+
+.whitebox-line {
+    display: flex;
+    flex-direction: row;
+
+    flex: 1;
+    gap: 20px;
+}
+
+.whitebox-illustration {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:baseline; */
+    align-items: center;
+
+
+
+    flex: 1;
+}
+
+.whitebox-boxes {
+    flex: 1;
+    flex-basis: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+
+    border-radius: 20px;
+}
+
+.whitebox-text {
+    flex: 1;
+    text-wrap: wrap;
+    width: 150px;
+}
+
+.greybox {    
+
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    padding: 150px;
+}
+
+.quotation {
+    flex: 1;
+    /* margin-top: 150px; */
+    font-style: italic;
+    font-size: 36px;
+    width: 60%;
+}
+
+.author-box {
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    /* width: 1000px; */
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.author {
+    flex: 1;
+    flex-grow: 0;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+}
+
+.whitebox-bluebox {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bluebox  {
+    display: flex;
+
+    flex-basis: 100%;
+    flex-grow: 1;
+
+    background-color: #3882F6;
+
+    padding: 50px;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+.calltoaction {
+    flex-grow: 1;
+    color:#E5E7EB;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.signup {
+    flex: 1;
+
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 7px;
+    border: 2px solid #E5E7EB;
+}
